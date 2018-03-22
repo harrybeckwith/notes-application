@@ -1,0 +1,61 @@
+input {
+  display: block;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards__Item {
+  padding: 10px;
+  width: 48%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+form {
+  background: white-smoke;
+  display: block;
+  padding: 5px 15px;
+  margin: 50px auto;
+  width: 70%;
+  max-width: 500px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form input {
+  border: none;
+  border-radius: 2px;
+  padding: 10px 0;
+  color: black;
+  outline: none;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+form input::placeholder {
+  text-transform: capitalize;
+  color: #000;
+  font-size: 16px;
+}
+
+.form__priority {
+  display: inline-block;
+}
+
+.cards {
+  display: flex;
+}
+
+.cards__priority__section {
+  width: 50%;
+}
+
+.cards__priority__section h3 {
+  text-align: center;
+}

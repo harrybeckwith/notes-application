@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <link rel="stylesheet" href="styles/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class='form'>
+            <div>
+                <input type="text" class="form__title" placeholder='title'>
+            </div>
+            <div>
+                <input type="text" class="form__description" placeholder='description'>
+            </div>
+            <div>
+                <label for="colour">Colour</label>
+                <select class='form__color'> 
+      <option value="white">White</option>
+      <option value="green">Green</option>
+      <option value="orange">Orange</option>
+       <option value="red">Red</option>
+    </select>
+            </div>
+            <div>
+                <label for="priority">Priority</label>
+                <input type='checkbox' class="form__priority"></input>
+            </div>
+            <div>
+                <button class="form__add">Add Item</button>
+            </div>
+        </form>
+        <div class="cards">
+            <div class="cards__priority__section">
+                <h3>Priority</h3>
+                <div class="cards__priority card"></div>
+            </div>
+            <div class="cards__priority__section">
+                <h3>Other</h3>
+                <div class="cards__nonPriority card"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/scripts.js"></script>
+
+</html>
